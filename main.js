@@ -205,12 +205,12 @@ $(function () {
         }
         if (cardCondition == "search") {
             // validation for searching
-            if (allCoinsArr.find(el => el.symbol.includes(`${$("#coinSearchInput").val().toUpperCase()}`)) == undefined) {
+            if (allCoinsArr.find(el => el.symbol.includes(`${$("#coinSearchInput").val().toLowerCase()}`)) == undefined) {
                 alert("found no matches for your search, try again")
                 return coinsAndGraph("all");
             }
             allCoinsArr.forEach(el => {
-                if (el.symbol.includes(`${$("#coinSearchInput").val().toUpperCase()}`)) {
+                if (el.symbol.includes(`${$("#coinSearchInput").val().toLowerCase()}`)) {
                     const coin = el
                     card =
                         `<div id="buttonForMore${coin.symbol}ParentDiv" class="animate__animated animate__fadeInUp coin-div">
