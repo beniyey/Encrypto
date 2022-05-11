@@ -10,14 +10,12 @@
     width: 100%;
     color: white;
     text-align: center;
-    background-color: #5a5a5a;
     padding: 5%;
 }
 
 .graph-of-coins {
     margin: 5% auto;
     height: auto;
-    /* min-width: 200px; */
     width: 90%;
 }
 
