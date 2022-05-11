@@ -6,11 +6,40 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #5a5a5a;
+    padding: 5%;
+}
+
 .graph-of-coins {
     margin: 5% auto;
     height: auto;
     /* min-width: 200px; */
     width: 90%;
+}
+
+.about {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.about>* {
+    margin: 2% auto;
+}
+
+.about>p {
+    width: 80%;
+}
+
+.profile-photo {
+    width: 45%;
+    border-radius: 100%;
+
 }
 
 .display-data-buttons {
@@ -142,7 +171,7 @@
     min-width: 210px;
     min-height: 50px;
     width: 20%;
-    margin: 2% auto ;
+    margin: 2% auto;
 }
 
 .coin-element {
