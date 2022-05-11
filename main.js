@@ -334,6 +334,7 @@ $(function () {
     })
     $("#liveReports").on("click", () => {
         coinsAndGraph("live")
+        $("#footer").empty()
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#coinSearchInput").offset().top
         }, 0);
